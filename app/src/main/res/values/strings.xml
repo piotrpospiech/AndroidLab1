@@ -6,7 +6,24 @@
     <string name="forgotPassword">Forgot password?</string>
     <string name="continueWithoutLogin">Continue without Login</string>
     <string name="cardLogo">Card logo</string>
-    <string name="buy">Buy</string>
-    <string name="sell">Sell</string>
-    <string name="auctions">My auctions</string>
+    <string name="search">Search</string>
+    <string name="add">Add</string>
+    <string name="collection">Collection</string>
+    <string name="cardName">Card name</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="quantity">Quantity:</string>
+    <string name="promo">Promo</string>
+    <string name="foil">Foil</string>
+    <string name="back">Back</string>
+
+    
+    <string-array name="expansions">
+        <item>War of the Spark</item>
+        <item>Ravnica Allegiance</item>
+        <item>Guilds of Ravnica</item>
+        <item>Dominaria</item>
+    </string-array>
 </resources>

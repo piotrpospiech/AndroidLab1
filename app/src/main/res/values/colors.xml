@@ -5,8 +5,6 @@
     <color name="colorAccent">#0F6E7D</color>
     <color name="colorBackground">#149FB5</color>
     <color name="colorButton">#65AABB</color>
-    <color name="colorCard">#fff</color>
-    <color name="colorTextView">#fff</color>
     <color name="colorEditText">#fff</color>
     <color name="colorText">#fff</color>
 </resources>

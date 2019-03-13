@@ -15,24 +15,25 @@ class MenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        val buyButton = findViewById<Button>(R.id.buyButton)
-        val sellButton = findViewById<Button>(R.id.sellButton)
-        val auctionsButton = findViewById<Button>(R.id.auctionsButton)
+        val searchButton = findViewById<Button>(R.id.searchButton)
+        val addButton = findViewById<Button>(R.id.addButton)
+        val collectionButton = findViewById<Button>(R.id.collectionButton)
 
-        buyButton.setOnClickListener {
+        searchButton.setOnClickListener {
             val toast = Toast.makeText(this, inProgress, Toast.LENGTH_LONG)
             toast.setGravity(Gravity.TOP or Gravity.CENTER_HORIZONTAL, 0, 180)
             toast.show()
         }
 
-        sellButton.setOnClickListener {
-            val intent = Intent(this, SellActivity::class.java)
+        addButton.setOnClickListener {
+            intent = Intent(this, AddActivity::class.java)
             startActivity(intent)
         }
 
-        auctionsButton.setOnClickListener {
-            val intent = Intent(this, AuctionsActivity::class.java)
-            startActivity(intent)
+        collectionButton.setOnClickListener {
+            val toast = Toast.makeText(this, inProgress, Toast.LENGTH_LONG)
+            toast.setGravity(Gravity.TOP or Gravity.CENTER_HORIZONTAL, 0, 180)
+            toast.show()
         }
     }
 }
