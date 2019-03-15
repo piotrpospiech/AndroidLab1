@@ -19,7 +19,22 @@
     <string name="foil">Foil</string>
     <string name="back">Back</string>
 
-    
+
+    <string name="wrongInputs">Wrong username or password</string>
+    <string name="workInProgress">Work in progress</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cardWithColon">Card:</string>
+    <string name="quantityWithColon">Quantity:</string>
+    <string name="promoWithColon">Promo:</string>
+    <string name="foilWithColon">Foil:</string>
+    <string name="expansionWithColon">Expansion:</string>
+    <string name="noCardName">Enter card name</string>
+    <string name="comma">,</string>
+    <string name="spaceBlank"> </string>
+
+
+
     <string-array name="expansions">
         <item>War of the Spark</item>
         <item>Ravnica Allegiance</item>

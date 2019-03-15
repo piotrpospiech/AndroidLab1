@@ -4,28 +4,18 @@ import android.content.Intent
 import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.Toast
 import android.view.Gravity
-import android.widget.ImageView
-import android.widget.TextView
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
 
-    private val wrongInput = "Wrong username or password"
-    private val inProgress = "Work in progress"
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         supportActionBar?.hide()
 
-        val signInButton = findViewById<Button>(R.id.signInButton)
-        val continueTextView = findViewById<TextView>(R.id.continueTextView)
-        val forgotTextView = findViewById<TextView>(R.id.forgotTextView)
-        val cardImageView = findViewById<ImageView>(R.id.cardImageView)
         var changedColor = false
 
         cardImageView.setOnLongClickListener {
@@ -37,13 +27,13 @@ class MainActivity : AppCompatActivity() {
         }
 
         signInButton.setOnClickListener { 
-            val toast = Toast.makeText(this, wrongInput, Toast.LENGTH_LONG)
+            val toast = Toast.makeText(this, getString(R.string.wrongInputs), Toast.LENGTH_LONG)
             toast.setGravity(Gravity.TOP or Gravity.CENTER_HORIZONTAL, 0, 32)
             toast.show()
         }
 
         forgotTextView.setOnClickListener {
-            val toast = Toast.makeText(this, inProgress, Toast.LENGTH_LONG)
+            val toast = Toast.makeText(this, getString(R.string.workInProgress), Toast.LENGTH_LONG)
             toast.setGravity(Gravity.TOP or Gravity.CENTER_HORIZONTAL, 0, 32)
             toast.show()
         }

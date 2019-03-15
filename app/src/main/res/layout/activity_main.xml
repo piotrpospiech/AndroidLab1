@@ -20,11 +20,12 @@
                 android:id="@+id/cardImageView"
                 android:layout_width="259dp"
                 android:layout_height="294dp"
-                app:srcCompat="@drawable/ic_poker"
+                app:srcCompat="@drawable/ic_card"
                 tools:ignore="VectorDrawableCompat" app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:clickable="true"
+                android:focusable="true"
                 android:contentDescription="@string/cardLogo"
         />
         <EditText

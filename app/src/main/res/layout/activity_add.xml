@@ -43,30 +43,33 @@
                 android:layout_height="wrap_content" android:layout_marginTop="0dp"
                 android:orientation="horizontal"
                 android:layout_toEndOf="@+id/quantityTextView" android:layout_toRightOf="@+id/quantityTextView"
-                android:layout_marginLeft="20dp" android:layout_marginStart="20dp"
-                android:layout_alignTop="@+id/quantityTextView" android:id="@+id/quantityRadioGroup">
+                android:layout_marginLeft="11dp" android:layout_marginStart="11dp"
+                android:layout_alignTop="@+id/quantityTextView" android:id="@+id/quantityRadioGroup"
+        >
             <RadioButton
                     android:text="@string/one"
+                    android:layout_weight="1"
+                    android:checked="true"
                     android:textColor="@color/colorText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/radioButton"/>
             <RadioButton
                     android:text="@string/two"
+                    android:layout_weight="1"
                     android:textColor="@color/colorText"
                     android:layout_width="wrap_content"
-                    android:layout_marginLeft="20dp" android:layout_marginStart="20dp"
                     android:layout_height="wrap_content" android:id="@+id/radioButton2"/>
             <RadioButton
                     android:text="@string/three"
+                    android:layout_weight="1"
                     android:textColor="@color/colorText"
                     android:layout_width="wrap_content"
-                    android:layout_marginLeft="20dp" android:layout_marginStart="20dp"
                     android:layout_height="wrap_content" android:id="@+id/radioButton3"/>
             <RadioButton
                     android:text="@string/four"
+                    android:layout_weight="1"
                     android:textColor="@color/colorText"
                     android:layout_width="wrap_content"
-                    android:layout_marginLeft="20dp" android:layout_marginStart="20dp"
                     android:layout_height="wrap_content" android:id="@+id/radioButton4"/>
         </RadioGroup>
         <CheckBox
