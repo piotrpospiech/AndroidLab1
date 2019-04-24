@@ -1,4 +1,4 @@
-# AndroidLab1
+# GUIapk
 
 This is my project for university, which I wrote in kotlin.
 I focused on good looking GUI and I didn't add any meaningful functionality.
