@@ -51,8 +51,8 @@ class AddActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
             for (i in cardInfoList)
                 toastInfo.append(i)
-                         .append(getString(R.string.comma))
-                         .append(getString(R.string.spaceBlank))
+                         .append(",")
+                         .append(" ")
         }
         else toastInfo.append(getString(R.string.noCardName))
         return toastInfo
